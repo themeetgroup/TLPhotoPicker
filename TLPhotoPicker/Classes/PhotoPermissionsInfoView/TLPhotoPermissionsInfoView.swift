@@ -26,11 +26,9 @@ public enum TLPhotoLibraryAccessType {
     case noAccess
 }
 
-/// Class to display the photo permissions info view
 open class TLPhotoPermissionsInfoView: UIView {
 
     // MARK: - Style
-
     /// Structure containing variables associated with this class
     public struct Style {
         /// Color of the view
@@ -46,11 +44,9 @@ open class TLPhotoPermissionsInfoView: UIView {
                                                   alpha: 1)
     }
 
-    // MARK: - Layout configuration
-
+    // MARK: - Layout
     /// Layout specific configuration
     public struct Layout {
-        public static var linkButtonHeight: CGFloat = 35
         /// Value of the top constraint of the content view
         public static var contentViewTopConstraintValue: CGFloat = 14
         /// Value of the leading constraint of the content view
@@ -63,7 +59,6 @@ open class TLPhotoPermissionsInfoView: UIView {
 
     // MARK: - Properties
 
-    /// Content view
     private(set) var contentView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
