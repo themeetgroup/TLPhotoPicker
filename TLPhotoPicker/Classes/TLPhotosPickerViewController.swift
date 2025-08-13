@@ -397,6 +397,7 @@ open class TLPhotosPickerViewController: UIViewController {
                 processAuthorization(status: status)
             }
         } else {
+            let status = PHPhotoLibrary.authorizationStatus(for: .readWrite)
             if status == .notDetermined {
                 PHPhotoLibrary.requestAuthorization { newStatus in
                     self.processAuthorization(status: newStatus)
