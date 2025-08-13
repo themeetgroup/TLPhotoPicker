@@ -209,5 +209,4 @@ open class TLPhotoPermissionsInfoView: UIView {
             delegate?.tlPhotoPermissionsInfoLinkButtonDidPress(photoLibraryAccessType)
         }
     }
-
 }
