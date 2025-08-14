@@ -387,19 +387,13 @@ open class TLPhotosPickerViewController: UIViewController {
     }
 
     private func checkAuthorization() {
+        var status: PHAuthorizationStatus
         if #available(iOS 14.0, *) {
-            let status = PHPhotoLibrary.authorizationStatus(for: .readWrite)
-            if status == .notDetermined {
-                PHPhotoLibrary.requestAuthorization(for: .readWrite) { newStatus in
-                    self.processAuthorization(status: newStatus)
-                }
-            } else {
-                processAuthorization(status: status)
-            }
+            status = PHPhotoLibrary.authorizationStatus(for: .readWrite)
         } else {
-            let status = PHPhotoLibrary.authorizationStatus()
-            processAuthorization(status: status)
+            status = PHPhotoLibrary.authorizationStatus()
         }
+        self.processAuthorization(status: status)
     }
 
     override open func viewDidLoad() {
