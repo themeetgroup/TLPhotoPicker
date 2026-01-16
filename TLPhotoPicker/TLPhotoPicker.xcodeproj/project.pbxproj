@@ -23,9 +23,9 @@
 		189E996F21F8BA7F00A754E4 /* TLAssetCollection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E996D21F8BA7F00A754E4 /* TLAssetCollection+Extension.swift */; };
 		18A3E62D224FADAD009A9567 /* SynchronizedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3E62C224FADAD009A9567 /* SynchronizedDictionary.swift */; };
 		B8E49AB223CC5FE900626917 /* TLAssetPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E49AB123CC5FE900626917 /* TLAssetPreviewViewController.swift */; };
-		F122423A2F19AA180014583E /* TLPhotoPermissionsInfoView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12242382F19AA180014583E /* TLPhotoPermissionsInfoView+Constraints.swift */; };
-		F122423B2F19AA180014583E /* TLPhotoPermissionsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12242372F19AA180014583E /* TLPhotoPermissionsInfoView.swift */; };
-		F122423C2F19AA180014583E /* TLPhotoPermissionsInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12242362F19AA180014583E /* TLPhotoPermissionsInfoModel.swift */; };
+		F11F13042F1ABDD200BF248E /* TLPhotoPermissionsInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11F13012F1ABDD200BF248E /* TLPhotoPermissionsInfoModel.swift */; };
+		F11F13052F1ABDD200BF248E /* TLPhotoPermissionsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11F13022F1ABDD200BF248E /* TLPhotoPermissionsInfoView.swift */; };
+		F11F13062F1ABDD200BF248E /* TLPhotoPermissionsInfoView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11F13032F1ABDD200BF248E /* TLPhotoPermissionsInfoView+Constraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,9 +47,9 @@
 		189E996D21F8BA7F00A754E4 /* TLAssetCollection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TLAssetCollection+Extension.swift"; path = "Classes/TLAssetCollection+Extension.swift"; sourceTree = SOURCE_ROOT; };
 		18A3E62C224FADAD009A9567 /* SynchronizedDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SynchronizedDictionary.swift; path = Classes/SynchronizedDictionary.swift; sourceTree = SOURCE_ROOT; };
 		B8E49AB123CC5FE900626917 /* TLAssetPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TLAssetPreviewViewController.swift; path = ../Classes/TLAssetPreviewViewController.swift; sourceTree = "<group>"; };
-		F12242362F19AA180014583E /* TLPhotoPermissionsInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLPhotoPermissionsInfoModel.swift; sourceTree = "<group>"; };
-		F12242372F19AA180014583E /* TLPhotoPermissionsInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLPhotoPermissionsInfoView.swift; sourceTree = "<group>"; };
-		F12242382F19AA180014583E /* TLPhotoPermissionsInfoView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TLPhotoPermissionsInfoView+Constraints.swift"; sourceTree = "<group>"; };
+		F11F13012F1ABDD200BF248E /* TLPhotoPermissionsInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLPhotoPermissionsInfoModel.swift; sourceTree = "<group>"; };
+		F11F13022F1ABDD200BF248E /* TLPhotoPermissionsInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLPhotoPermissionsInfoView.swift; sourceTree = "<group>"; };
+		F11F13032F1ABDD200BF248E /* TLPhotoPermissionsInfoView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TLPhotoPermissionsInfoView+Constraints.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,36 +82,28 @@
 		18465D9D206E8A8B0015A715 /* TLPhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
-				F12242392F19AA180014583E /* PhotoPermissionsInfoView */,
 				18465DBA206E8AFD0015A715 /* TLPhotoPickerController.bundle */,
+				18465D9F206E8A8B0015A715 /* Info.plist */,
 				18A3E62C224FADAD009A9567 /* SynchronizedDictionary.swift */,
-				B8E49AB123CC5FE900626917 /* TLAssetPreviewViewController.swift */,
 				18465DAC206E8AEB0015A715 /* TLAlbumPopView.swift */,
-				18465DAD206E8AEB0015A715 /* TLAssetsCollection.swift */,
 				189E996D21F8BA7F00A754E4 /* TLAssetCollection+Extension.swift */,
-				189E996C21F8BA7F00A754E4 /* TLPhotopickerDataSourcesProtocol.swift */,
+				B8E49AB123CC5FE900626917 /* TLAssetPreviewViewController.swift */,
+				18465DAD206E8AEB0015A715 /* TLAssetsCollection.swift */,
 				18465DA9206E8AEB0015A715 /* TLBundle.swift */,
 				18465DAB206E8AEB0015A715 /* TLCollectionTableViewCell.swift */,
 				18465DA7206E8AEB0015A715 /* TLCollectionTableViewCell.xib */,
 				18465DAA206E8AEB0015A715 /* TLPhotoCollectionViewCell.swift */,
 				18465DA8206E8AEB0015A715 /* TLPhotoCollectionViewCell.xib */,
 				18465DAE206E8AEB0015A715 /* TLPhotoLibrary.swift */,
+				F11F13012F1ABDD200BF248E /* TLPhotoPermissionsInfoModel.swift */,
+				F11F13022F1ABDD200BF248E /* TLPhotoPermissionsInfoView.swift */,
+				F11F13032F1ABDD200BF248E /* TLPhotoPermissionsInfoView+Constraints.swift */,
+				18465D9E206E8A8B0015A715 /* TLPhotoPicker.h */,
+				189E996C21F8BA7F00A754E4 /* TLPhotopickerDataSourcesProtocol.swift */,
 				18465DA6206E8AEB0015A715 /* TLPhotosPickerViewController.swift */,
 				18465DAF206E8AEB0015A715 /* TLPhotosPickerViewController.xib */,
-				18465D9E206E8A8B0015A715 /* TLPhotoPicker.h */,
-				18465D9F206E8A8B0015A715 /* Info.plist */,
 			);
 			path = TLPhotoPicker;
-			sourceTree = "<group>";
-		};
-		F12242392F19AA180014583E /* PhotoPermissionsInfoView */ = {
-			isa = PBXGroup;
-			children = (
-				F12242362F19AA180014583E /* TLPhotoPermissionsInfoModel.swift */,
-				F12242372F19AA180014583E /* TLPhotoPermissionsInfoView.swift */,
-				F12242382F19AA180014583E /* TLPhotoPermissionsInfoView+Constraints.swift */,
-			);
-			path = PhotoPermissionsInfoView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,9 +199,9 @@
 				18465DB7206E8AEB0015A715 /* TLAssetsCollection.swift in Sources */,
 				18A3E62D224FADAD009A9567 /* SynchronizedDictionary.swift in Sources */,
 				18465DB5206E8AEB0015A715 /* TLCollectionTableViewCell.swift in Sources */,
-				F122423A2F19AA180014583E /* TLPhotoPermissionsInfoView+Constraints.swift in Sources */,
-				F122423B2F19AA180014583E /* TLPhotoPermissionsInfoView.swift in Sources */,
-				F122423C2F19AA180014583E /* TLPhotoPermissionsInfoModel.swift in Sources */,
+				F11F13042F1ABDD200BF248E /* TLPhotoPermissionsInfoModel.swift in Sources */,
+				F11F13052F1ABDD200BF248E /* TLPhotoPermissionsInfoView.swift in Sources */,
+				F11F13062F1ABDD200BF248E /* TLPhotoPermissionsInfoView+Constraints.swift in Sources */,
 				18465DB8206E8AEB0015A715 /* TLPhotoLibrary.swift in Sources */,
 				18465DB4206E8AEB0015A715 /* TLPhotoCollectionViewCell.swift in Sources */,
 				18465DB3206E8AEB0015A715 /* TLBundle.swift in Sources */,
