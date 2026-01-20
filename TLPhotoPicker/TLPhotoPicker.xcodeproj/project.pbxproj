@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18465DA0206E8A8B0015A715 /* TLPhotoPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 18465D9E206E8A8B0015A715 /* TLPhotoPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18465DB0206E8AEB0015A715 /* TLPhotosPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18465DA6206E8AEB0015A715 /* TLPhotosPickerViewController.swift */; };
 		18465DB1206E8AEB0015A715 /* TLCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18465DA7206E8AEB0015A715 /* TLCollectionTableViewCell.xib */; };
 		18465DB2206E8AEB0015A715 /* TLPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18465DA8206E8AEB0015A715 /* TLPhotoCollectionViewCell.xib */; };
@@ -23,14 +22,13 @@
 		189E996F21F8BA7F00A754E4 /* TLAssetCollection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E996D21F8BA7F00A754E4 /* TLAssetCollection+Extension.swift */; };
 		18A3E62D224FADAD009A9567 /* SynchronizedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3E62C224FADAD009A9567 /* SynchronizedDictionary.swift */; };
 		B8E49AB223CC5FE900626917 /* TLAssetPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E49AB123CC5FE900626917 /* TLAssetPreviewViewController.swift */; };
-		F11F13042F1ABDD200BF248E /* TLPhotoPermissionsInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11F13012F1ABDD200BF248E /* TLPhotoPermissionsInfoModel.swift */; };
-		F11F13052F1ABDD200BF248E /* TLPhotoPermissionsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11F13022F1ABDD200BF248E /* TLPhotoPermissionsInfoView.swift */; };
-		F11F13062F1ABDD200BF248E /* TLPhotoPermissionsInfoView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11F13032F1ABDD200BF248E /* TLPhotoPermissionsInfoView+Constraints.swift */; };
+		F180BEAC2F1FC1C9006947F9 /* TLPhotoPermissionsInfoView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F180BEAB2F1FC1C9006947F9 /* TLPhotoPermissionsInfoView+Constraints.swift */; };
+		F180BEAD2F1FC1C9006947F9 /* TLPhotoPermissionsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F180BEAA2F1FC1C9006947F9 /* TLPhotoPermissionsInfoView.swift */; };
+		F180BEAE2F1FC1C9006947F9 /* TLPhotoPermissionsInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F180BEA92F1FC1C9006947F9 /* TLPhotoPermissionsInfoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18465D9B206E8A8B0015A715 /* TLPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TLPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18465D9E206E8A8B0015A715 /* TLPhotoPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLPhotoPicker.h; sourceTree = "<group>"; };
 		18465D9F206E8A8B0015A715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18465DA6206E8AEB0015A715 /* TLPhotosPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TLPhotosPickerViewController.swift; path = Classes/TLPhotosPickerViewController.swift; sourceTree = SOURCE_ROOT; };
 		18465DA7206E8AEB0015A715 /* TLCollectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TLCollectionTableViewCell.xib; path = Classes/TLCollectionTableViewCell.xib; sourceTree = SOURCE_ROOT; };
@@ -47,9 +45,9 @@
 		189E996D21F8BA7F00A754E4 /* TLAssetCollection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TLAssetCollection+Extension.swift"; path = "Classes/TLAssetCollection+Extension.swift"; sourceTree = SOURCE_ROOT; };
 		18A3E62C224FADAD009A9567 /* SynchronizedDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SynchronizedDictionary.swift; path = Classes/SynchronizedDictionary.swift; sourceTree = SOURCE_ROOT; };
 		B8E49AB123CC5FE900626917 /* TLAssetPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TLAssetPreviewViewController.swift; path = ../Classes/TLAssetPreviewViewController.swift; sourceTree = "<group>"; };
-		F11F13012F1ABDD200BF248E /* TLPhotoPermissionsInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLPhotoPermissionsInfoModel.swift; sourceTree = "<group>"; };
-		F11F13022F1ABDD200BF248E /* TLPhotoPermissionsInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLPhotoPermissionsInfoView.swift; sourceTree = "<group>"; };
-		F11F13032F1ABDD200BF248E /* TLPhotoPermissionsInfoView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TLPhotoPermissionsInfoView+Constraints.swift"; sourceTree = "<group>"; };
+		F180BEA92F1FC1C9006947F9 /* TLPhotoPermissionsInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TLPhotoPermissionsInfoModel.swift; path = Classes/TLPhotoPermissionsInfoModel.swift; sourceTree = SOURCE_ROOT; };
+		F180BEAA2F1FC1C9006947F9 /* TLPhotoPermissionsInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TLPhotoPermissionsInfoView.swift; path = Classes/TLPhotoPermissionsInfoView.swift; sourceTree = SOURCE_ROOT; };
+		F180BEAB2F1FC1C9006947F9 /* TLPhotoPermissionsInfoView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TLPhotoPermissionsInfoView+Constraints.swift"; path = "Classes/TLPhotoPermissionsInfoView+Constraints.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +93,9 @@
 				18465DAA206E8AEB0015A715 /* TLPhotoCollectionViewCell.swift */,
 				18465DA8206E8AEB0015A715 /* TLPhotoCollectionViewCell.xib */,
 				18465DAE206E8AEB0015A715 /* TLPhotoLibrary.swift */,
-				F11F13012F1ABDD200BF248E /* TLPhotoPermissionsInfoModel.swift */,
-				F11F13022F1ABDD200BF248E /* TLPhotoPermissionsInfoView.swift */,
-				F11F13032F1ABDD200BF248E /* TLPhotoPermissionsInfoView+Constraints.swift */,
-				18465D9E206E8A8B0015A715 /* TLPhotoPicker.h */,
+				F180BEA92F1FC1C9006947F9 /* TLPhotoPermissionsInfoModel.swift */,
+				F180BEAA2F1FC1C9006947F9 /* TLPhotoPermissionsInfoView.swift */,
+				F180BEAB2F1FC1C9006947F9 /* TLPhotoPermissionsInfoView+Constraints.swift */,
 				189E996C21F8BA7F00A754E4 /* TLPhotopickerDataSourcesProtocol.swift */,
 				18465DA6206E8AEB0015A715 /* TLPhotosPickerViewController.swift */,
 				18465DAF206E8AEB0015A715 /* TLPhotosPickerViewController.xib */,
@@ -113,7 +110,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18465DA0206E8A8B0015A715 /* TLPhotoPicker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,9 +195,9 @@
 				18465DB7206E8AEB0015A715 /* TLAssetsCollection.swift in Sources */,
 				18A3E62D224FADAD009A9567 /* SynchronizedDictionary.swift in Sources */,
 				18465DB5206E8AEB0015A715 /* TLCollectionTableViewCell.swift in Sources */,
-				F11F13042F1ABDD200BF248E /* TLPhotoPermissionsInfoModel.swift in Sources */,
-				F11F13052F1ABDD200BF248E /* TLPhotoPermissionsInfoView.swift in Sources */,
-				F11F13062F1ABDD200BF248E /* TLPhotoPermissionsInfoView+Constraints.swift in Sources */,
+				F180BEAC2F1FC1C9006947F9 /* TLPhotoPermissionsInfoView+Constraints.swift in Sources */,
+				F180BEAD2F1FC1C9006947F9 /* TLPhotoPermissionsInfoView.swift in Sources */,
+				F180BEAE2F1FC1C9006947F9 /* TLPhotoPermissionsInfoModel.swift in Sources */,
 				18465DB8206E8AEB0015A715 /* TLPhotoLibrary.swift in Sources */,
 				18465DB4206E8AEB0015A715 /* TLPhotoCollectionViewCell.swift in Sources */,
 				18465DB3206E8AEB0015A715 /* TLBundle.swift in Sources */,
